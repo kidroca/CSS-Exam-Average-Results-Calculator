@@ -14,25 +14,24 @@ class AvgScore
         var results = System.IO.File.ReadAllText(Console.ReadLine())
             .Split(',', '\n');
 
-        int[] myArray = new int[results.Length]; // Array for all the numbers
+        int[] dataArray = new int[results.Length]; // Array for all the numbers
 
         for (int i = 0; i < results.Length; i++)
         {
-            int.TryParse(results[i], out myArray[i]); // Parsing the numbers in there
+            int.TryParse(results[i], out dataArray[i]); // Parsing the numbers in there
         }
 
         int studentsCount = 0;
         int avgScore = 0;
         int excelScores = 0;
-        int[] grades = new int[myArray.Length / 2]; // Extracting only the grades here
+        int[] grades = new int[dataArray.Length / 2]; // Extracting only the grades here
 
         /* Get every odd index, skip the first two as they are words. */
-        for (int i = 3, j = 0; i < myArray.Length; i += 2, j++)
-        {
+        for (int i = 3, j = 0; i < dataArray.Length; i += 2, j++)
+        {   
             studentsCount++;
-            avgScore += myArray[i]; // Sum of all grades
-
-            grades[j] = myArray[i]; // Getting the grades in a separate list 
+            grades[j] = dataArray[i]; // Getting the grades in a separate list 
+            avgScore += grades[j]; // Sum of all grades
 
             if (grades[j] == 100)
             {

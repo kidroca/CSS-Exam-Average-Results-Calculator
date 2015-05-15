@@ -1,0 +1,6 @@
+C:\Users\Kidroca\Dropbox\Programing Projects\Average-Student-Result\Average-Student-Result\bin\Debug\Average-Student-Result.exe.config
+C:\Users\Kidroca\Dropbox\Programing Projects\Average-Student-Result\Average-Student-Result\bin\Debug\Average-Student-Result.exe
+C:\Users\Kidroca\Dropbox\Programing Projects\Average-Student-Result\Average-Student-Result\bin\Debug\Average-Student-Result.pdb
+C:\Users\Kidroca\Dropbox\Programing Projects\Average-Student-Result\Average-Student-Result\obj\Debug\Average-Student-Result.csprojResolveAssemblyReference.cache
+C:\Users\Kidroca\Dropbox\Programing Projects\Average-Student-Result\Average-Student-Result\obj\Debug\Average-Student-Result.exe
+C:\Users\Kidroca\Dropbox\Programing Projects\Average-Student-Result\Average-Student-Result\obj\Debug\Average-Student-Result.pdb
